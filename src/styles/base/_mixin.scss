@@ -1,0 +1,30 @@
+@mixin reset-pm {
+  padding: 0;
+  margin: 0;
+}
+
+@mixin flex-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+@mixin btn {
+  font-size: 0.875rem;
+  display: flex;
+  flex-direction: column;
+  margin: 0.6rem 0.2rem;
+  color: var(--color-font);
+  padding: 1%;
+  border: none;
+  i {
+    margin-right: 0.3rem;
+    font-size: 1.2rem;
+    pointer-events: none;
+  }
+}
+
+@mixin btn-hover {
+  color: var(--color-accent);
+}
