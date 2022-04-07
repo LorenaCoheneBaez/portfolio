@@ -20,6 +20,9 @@ header {
         background-color: transparent;
          align-items: center;
       }
+      .theme-btn:focus{
+        outline: none;
+      }
       .btn:hover {
         @include btn-hover();
       }
