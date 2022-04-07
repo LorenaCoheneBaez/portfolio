@@ -3,11 +3,11 @@
   margin: 0;
 }
 
-@mixin flex-row {
+@mixin flex-direction( $flex-direction, $align-items, $justify-content){
   display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-around;
+  flex-direction: $flex-direction;
+  align-items: $align-items;
+  justify-content: $justify-content;
 }
 
 @mixin btn {

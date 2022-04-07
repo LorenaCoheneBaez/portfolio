@@ -2,16 +2,16 @@
 
 header {
   width: 100%;
-  background-color: var(--color-grey-4);
   nav {
     ul {
-      @include flex-row();
+      background-color: #454e5661;
+      filter: blur(0.1px);
+      @include flex-direction($flex-direction: row, $align-items: center, $justify-content: space-around);
       position: fixed;
+      padding: .25rem .625rem;
       z-index: 10;
       top: 93%;
-      right: 4%;
       transform: translateY(-50%);
-      width: 100%;
       color: var(--color-font);
       .btn,
       .theme-btn {

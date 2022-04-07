@@ -1,10 +1,11 @@
 :root {
-  --font-title: 'red hat mono';
-  --font-text: 'red hat display';
+  --font-title: Red Hat Mono,Consolas, system-ui;
+  --font-text: Red Hat Display,Consolas, system-ui;
   --color-primary: #181717;
   --color-accent: #f56692;
   --color-font: #ffffff;
   --color-black: #000;
+  --color-secondary: #8f7a758e;
   --color-grey0: #f8f8f8;
   --color-grey-1: #dbe1e8;
   --color-grey-2: #b2becd;
@@ -17,10 +18,11 @@
 }
 
 .light-mode {
-  --color-primary: #f7f7f7;
+  --color-primary: #e2dede;
   --color-accent: #cc00cc;
   --color-font: #0a0b0b;
   --color-black: #000;
+  --color-secondary:#6629296b;
   --color-grey0: #f8f8f8;
   --color-grey-1: #6c7983;
   --color-grey-2: #6c7983;
