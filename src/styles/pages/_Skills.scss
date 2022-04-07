@@ -1,0 +1,16 @@
+@import "../base/mixin";
+
+.card {
+   @include flex-direction($flex-direction: column, $align-items: center, $justify-content: space-around); 
+  height: 90%;
+  width: 68%;
+  margin: 1.5rem auto;
+  .card-img {
+    border-radius: 0.875rem;
+    width: 30%;
+    height: 45%;
+  }
+  .card-title{
+      margin-top: 0.3rem;
+  }
+}

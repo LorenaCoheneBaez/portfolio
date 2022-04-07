@@ -24,15 +24,18 @@ body {
   h3,
   h4,
   h5,
-  h6, .accent {
+  .accent {
     font-family: var(--font-title);
     font-weight: 600;
+    text-align: center;
   }
-  .main{
+  #main{
     padding: 8%;
-    @include flex-direction($flex-direction: row, $align-items: center, $justify-content: space-around);
   }
   h1, .accent{
     font-size: 2.125rem;
+  }
+  h3{
+    margin-top: 1rem;
   }
 }

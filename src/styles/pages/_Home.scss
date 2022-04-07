@@ -1,9 +1,6 @@
 @import "../base/mixin";
 
 #home {
-  .text-home{
-    text-align: center;
-  }
   .accent {
     color: var(--color-accent);
     margin: 1rem auto;
@@ -18,6 +15,7 @@
     .social-link {
       margin-right: 1rem;
       font-size: 1.5rem;
+      color: var(--color-font);
       &:hover{
         @include btn-hover();
       }

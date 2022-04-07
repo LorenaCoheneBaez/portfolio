@@ -17,6 +17,8 @@ header {
       .theme-btn {
         @include btn();
         margin: 1rem 0.3rem;
+        background-color: transparent;
+         align-items: center;
       }
       .btn:hover {
         @include btn-hover();
