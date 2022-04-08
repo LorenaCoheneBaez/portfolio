@@ -1,0 +1,76 @@
+.container-project {
+  margin-top: 1.5rem;
+  .project-item {
+    position: relative;
+    border-radius: 15px;
+    .project-img {
+      width: 100%;
+      height: 13.4375rem;
+      object-fit: cover;
+      border-radius: 15px;
+      margin: 1rem auto;
+    }
+    .project-hover {
+      width: 100%;
+      height: 100%;
+      background-color: var(--color-accent);
+      position: absolute;
+      left: 0;
+      top: 0;
+      border-radius: 15px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      opacity: 0;
+      transform: scale(0);
+      transition: all 0.4s ease-in-out;
+      .project-item-title {
+        font-size: 1.5rem;
+        color: var(--color-white);
+        margin-bottom: 1.5rem;
+      }
+      .project-icon-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .project-icon {
+          background-color: var(--color-primary);
+          border-radius: 50%;
+          width: 70px;
+          height: 70px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          margin: 0 1rem;
+          cursor: pointer;
+          transition: all 0.4s ease-in-out;
+          &:hover {
+            background-color: var(--color-font);
+            color: var(--color-primary);
+          }
+          .project-i {
+            font-size: 1.5rem;
+            color: var(--color-white);
+            margin: 0 1rem;
+          
+        }
+      }
+    }
+    .project-tecno{
+      font-size: 14px;
+      margin-top: .75rem;
+    }
+  }
+}
+
+.container-project .project-item {
+    position: relative;
+    border-radius: 15px;
+}
+.project-item:hover .project-hover {
+  opacity: 1;
+  transform: scale(1);
+}
+}

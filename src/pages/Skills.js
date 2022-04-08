@@ -11,9 +11,8 @@ export default function Skills() {
     {
       skills.map((item, index)=>{
         return (
-          <article>
+          <article key={index + item.id}>
           <Card
-          key={index+item.id}
           name= {item.name}
           logo= {item.logo}
           />
