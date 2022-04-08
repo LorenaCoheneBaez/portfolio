@@ -8,12 +8,20 @@ import Contact from './pages/Contact';
 function App() {
   return (
     <div className="App">
-      <Header/>
+      <Header />
       <main id='main'>
-       <Home/>
-       <Skills/>
-       <Projects/>
-       <Contact/>
+        <section>
+          <Home />
+        </section>
+        <section>
+          <Skills />
+        </section>
+        <section>
+          <Projects />
+        </section>
+        <section>
+          <Contact />
+        </section>
       </main>
     </div>
   );
