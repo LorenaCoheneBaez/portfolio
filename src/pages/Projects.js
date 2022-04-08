@@ -28,7 +28,7 @@ export default function Projects
         }
          </div> 
     
-
+      <a className="btn-contact repos" href="https://github.com/LorenaCoheneBaez?tab=repositories" target="_blank" rel="noreferrer nofollow noopener">Ver más</a>
     </div>
   )
 }
