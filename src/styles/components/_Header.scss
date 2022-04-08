@@ -4,7 +4,7 @@ header {
   width: 100%;
   nav {
     ul {
-      background-color: #454e5661;
+      background-color: rgb(69 78 86 / 94%);
       filter: blur(0.1px);
       @include flex-direction($flex-direction: row, $align-items: center, $justify-content: space-around);
       position: fixed;

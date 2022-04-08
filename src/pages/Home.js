@@ -26,7 +26,7 @@ export default function Home() {
             })}
           </ul>
         </nav>
-        <div className="btn-con">
+        <div className="btn-contact">
           <a href="/assets/cv-Lorena_Cohene_Baez.pdf" className="main-btn" download="CV-Lorena-Cohene-Baez">
             <span className="btn-text">Descargar CV</span>
             <span className="btn-icon"><i className="bi bi-cloud-arrow-down-fill"></i></span>
