@@ -1,4 +1,12 @@
 window.onload = function () {
+    //Modo claro/oscuro
+    const themeBtn = document.querySelector('.theme-btn');
+    themeBtn.addEventListener('click', () => {
+        let e = document.body;
+        e.classList.toggle('light-mode')
+    })
+    
+    //Controles video
     const demo = document.getElementById('/#leaf3');
 
     const btnClose = document.getElementById('close-video-leaf')

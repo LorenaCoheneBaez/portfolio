@@ -22,4 +22,11 @@
     video{
         width: 95%;
     }
+    .btn-video {
+    color: var(--color-primary);
+    background-color: var(--color-font);
+    border-radius: 15px;
+    padding: 2px;
+    border: none;
+}
 }
