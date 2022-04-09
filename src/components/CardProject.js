@@ -11,7 +11,7 @@ export default function CardProject({title, target, rel, img, linkDemo,linkGithu
       <div className="project-icon-container">
         <a href={linkGithub} className="project-icon" target={target} rel={rel}><i className='bi bi-github project-i'></i> Código
         </a>
-        <a href={linkDemo} className="project-icon" target={target} rel={rel}>
+        <a href={linkDemo} className="project-icon" target={target} rel={rel} id={linkDemo}>
           <i className="bi bi-eye-fill"></i> Demo
         </a>
         </div>

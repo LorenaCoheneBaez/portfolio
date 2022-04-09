@@ -1,10 +1,25 @@
 .repos {
-    border-radius: 30px;
-    color: black;
-    background-color: white;
+    border-radius: 15px;
+    color: var(--color-primary);
+    background-color: var(--color-font);
     font-weight: 600;
     &:hover{
     text-decoration: underline;
 }
 }
 
+#video-leaf{
+    display: none;
+}
+
+#video-garden{
+    display: none;
+}
+
+.video-demo{
+    margin-top: 1rem;
+    width: 100%;
+    video{
+        width: 95%;
+    }
+}

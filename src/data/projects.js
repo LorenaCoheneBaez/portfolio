@@ -1,4 +1,4 @@
-const projects = [
+export const projects = [
     {
         "id":1,
         "title": "Las Yerberas masoterapia",
@@ -19,26 +19,27 @@ const projects = [
         "linkGithub": "https://github.com/LorenaCoheneBaez/star-wars-planets",
         "tecno": "React | Redux | SASS",
     },
+]
+
+export const projectVideo = [
     {
-        "id":3,
+        "id": 3,
         "title": "Libreria LEAF e-commerce",
         "target": "_self",
         "rel": "me",
         "img": "leaf-poster.jpeg",
-        "linkDemo": "",
+        "linkDemo": "#leaf",
         "linkGithub": "https://github.com/Leaf-libreria/grupo_8_LEAF",
         "tecno": "Node.Js | MySQL | HTML | CSS",
     },
     {
-        "id":4,
+        "id": 4,
         "title": "Garden Designs",
         "target": "_self",
         "rel": "me",
         "img": "garden-poster.jpeg",
-        "linkDemo": "",
+        "linkDemo": "#garden",
         "linkGithub": "https://github.com/LorenaCoheneBaez/mini-proyectos-python",
         "tecno": "HTML | CSS | Javascript",
-    },  
+    },
 ]
-
-export default projects
