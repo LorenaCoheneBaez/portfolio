@@ -4,21 +4,19 @@ header {
   width: 100%;
   nav {
     ul {
-      background-color: rgb(69 78 86 / 94%);
-      filter: blur(0.1px);
+      background-color: var(--color-primary);
       @include flex-direction($flex-direction: row, $align-items: center, $justify-content: space-around);
       position: fixed;
       padding: .25rem .625rem;
       z-index: 10;
-      top: 93%;
-      transform: translateY(-50%);
+      bottom: 0;
       color: var(--color-font);
       .btn,
       .theme-btn {
         @include btn();
         margin: 1rem 0.3rem;
         background-color: transparent;
-         align-items: center;
+        align-items: center;
       }
       .theme-btn:focus{
         outline: none;

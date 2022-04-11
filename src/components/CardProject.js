@@ -9,7 +9,7 @@ export default function CardProject({title, target, rel, img, linkDemo,linkGithu
       <div className="project-hover">
         <h5 className='project-item-title'>{title}</h5>
       <div className="project-icon-container">
-        <a href={linkGithub} className="project-icon" target={target} rel={rel}><i className='bi bi-github project-i'></i> Código
+          <a href={linkGithub} className="project-icon" target="_blank" rel="noreferrer nofollow noopener"><i className='bi bi-github project-i'></i> Código
         </a>
         <a href={linkDemo} className="project-icon" target={target} rel={rel} id={linkDemo}>
           <i className="bi bi-eye-fill"></i> Demo

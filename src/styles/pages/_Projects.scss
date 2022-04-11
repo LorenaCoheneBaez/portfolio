@@ -1,32 +1,35 @@
 .repos {
-    border-radius: 15px;
-    color: var(--color-primary);
-    background-color: var(--color-font);
-    font-weight: 600;
-    &:hover{
+  border-radius: 15px;
+  color: var(--color-primary);
+  background-color: var(--color-font);
+  font-weight: 600;
+  &:hover {
     text-decoration: underline;
-}
-}
-
-#video-leaf{
-    display: none;
+  }
 }
 
-#video-garden{
-    display: none;
+#video-leaf {
+  display: none;
 }
 
-.video-demo{
-    margin-top: 1rem;
+#video-garden {
+  display: none;
+}
+
+.video-demo {
+  margin-top: 1rem;
+  width: 100%;
+  video {
+      border: 1px solid var(--color-font);
+      border-radius: 15px;
+    height: 13rem;
     width: 100%;
-    video{
-        width: 95%;
-    }
-    .btn-video {
+  }
+  .btn-video {
     color: var(--color-primary);
     background-color: var(--color-font);
     border-radius: 15px;
     padding: 2px;
     border: none;
-}
+  }
 }

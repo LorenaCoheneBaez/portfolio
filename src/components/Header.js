@@ -6,7 +6,7 @@ export default function Header() {
       <nav>
         <ul>
           <button type='button' className="theme-btn btn">
-            <i className="bi bi-circle-half"></i>
+            <i id='color-icon-header' className="bi bi-brightness-high"></i>
           </button>
           <li><a href="#home" className='btn'><i className="bi bi-house-door-fill"></i>Inicio</a></li>
           <li><a className='btn' href="#skills"><i className="bi bi-pc-display-horizontal"></i> Tecnologías</a></li>

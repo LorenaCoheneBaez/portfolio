@@ -2,6 +2,10 @@ window.onload = function () {
     //Modo claro/oscuro
     const themeBtn = document.querySelector('.theme-btn');
     themeBtn.addEventListener('click', () => {
+        let iconColor = document.getElementById("color-icon-header")
+
+        iconColor.classList.toggle('bi-moon-fill');
+
         let e = document.body;
         e.classList.toggle('light-mode')
     })
