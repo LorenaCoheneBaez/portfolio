@@ -1,7 +1,7 @@
 @import "../base/mixin";
 
 header {
-  width: 100%;
+  width: 100vw;
   nav {
     ul {
       background-color: var(--color-primary);
@@ -11,6 +11,9 @@ header {
       z-index: 10;
       bottom: 0;
       color: var(--color-font);
+      .logo-header{
+        display: none;
+      }
       .btn,
       .theme-btn {
         @include btn();
@@ -24,6 +27,19 @@ header {
       .btn:hover {
         @include btn-hover();
       }
+       @media screen and (min-width: 767px){
+        width: 100vw;
+        .logo-header{
+          display: block;
+          img{
+            width: 9vh;
+          }
+        }
+         .btn,
+      .theme-btn {
+        font-size: 1.2rem;
+      }
+       }
     }
   }
 }

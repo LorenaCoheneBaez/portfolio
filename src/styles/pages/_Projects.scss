@@ -20,8 +20,8 @@
   margin-top: 1rem;
   width: 100%;
   video {
-      border: 1px solid var(--color-font);
-      border-radius: 15px;
+    border: 1px solid var(--color-font);
+    border-radius: 15px;
     height: 13rem;
     width: 100%;
   }
@@ -31,5 +31,24 @@
     border-radius: 15px;
     padding: 2px;
     border: none;
+  }
+}
+@media screen and (min-width: 767px) {
+  .container-project {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 1rem;
+  }
+  .video-demo {
+  video{
+    height: initial;
+    
+  }
+  .btn-video{
+      font-size: 1.125rem;
+    }
+  }
+  .repos{
+    font-size: 1.5rem;
   }
 }

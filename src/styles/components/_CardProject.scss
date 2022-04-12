@@ -30,15 +30,17 @@
         margin-bottom: 1.5rem;
       }
       .project-icon-container {
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        @include flex-direction(
+          $flex-direction: row,
+          $align-items: center,
+          $justify-content: center
+        );
         .project-icon {
           background-color: var(--color-primary);
           border-radius: 50%;
-           @include flex-direction(column, center, center);
-          width: 70px;
-          height: 70px;
+          @include flex-direction(column, center, center);
+          width: 4.375rem;
+          height: 4.375rem;
           margin: 0 1rem;
           cursor: pointer;
           transition: all 0.4s ease-in-out;
@@ -54,8 +56,11 @@
         }
       }
       .project-tecno {
-        font-size: 14px;
+        font-size: 0.875rem;
         margin-top: 0.75rem;
+         @media screen and (min-width: 767px) {
+           font-size: 1.2rem;
+         }
       }
     }
   }

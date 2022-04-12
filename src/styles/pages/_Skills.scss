@@ -14,3 +14,10 @@
       margin-top: 0.3rem;
   }
 }
+
+@media screen and (min-width: 767px){
+  .grid-skills{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
