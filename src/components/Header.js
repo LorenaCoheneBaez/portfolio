@@ -6,7 +6,7 @@ export default function Header() {
       <nav>
         <ul>
           <li><a href="#home" className="logo-header"><img src="/logo192.png" alt="logo Lorena Cohene Báez" /></a></li>
-          <button type='button' className="theme-btn btn">
+          <button type='button' className="theme-btn btn" id='theme-btn'>
             <i id='color-icon-header' className="bi bi-brightness-high"></i>
           </button>
           <li><a href="#home" className='btn'><i className="bi bi-house-door-fill"></i>Inicio</a></li>
