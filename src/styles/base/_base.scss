@@ -107,7 +107,7 @@ body {
     min-width: 14.125rem;
   }
   .about {
-    text-align: left;
+    text-align: center;
     margin: 1rem auto;
   }
   @media screen and (min-width: 767px) {
@@ -131,10 +131,26 @@ body {
     }
     .about {
       font-size: 1.5rem;
-      text-align: center;
     }
     .main-btn {
       font-size: 1.5rem;
     }
   }
+}
+
+.App {
+  @media screen and (min-width: 1020px) {
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+    #main{
+    padding: initial;
+  }
+  h3{
+    margin-top: 2rem;
+  }
+  .main-btn .btn-icon{
+    padding: 1.2rem;
+  }
+  }
+  
 }

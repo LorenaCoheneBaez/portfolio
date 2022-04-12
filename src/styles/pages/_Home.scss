@@ -56,5 +56,11 @@
     .contact-links .social-link {
       font-size: 2rem;
     }
+     @media screen and (min-width: 1020px){
+       .bg-shape {
+         border-bottom: 36rem solid var(--color-accent);
+      border-left: 25rem solid transparent;
+       }
+     }
   }
 }

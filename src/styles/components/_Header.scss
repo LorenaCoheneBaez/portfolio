@@ -42,4 +42,12 @@ header {
        }
     }
   }
+  @media screen and (min-width: 1020px){
+    width: initial;
+  nav ul{
+         flex-direction: column;
+         height: 100vh;
+         width: initial;
+       }
+      }
 }

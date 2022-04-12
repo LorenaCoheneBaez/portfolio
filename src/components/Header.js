@@ -5,7 +5,7 @@ export default function Header() {
     <header>
       <nav>
         <ul>
-          <li><a href="/" className="logo-header"><img src="/logo192.png" alt="logo Lorena Cohene Báez" /></a></li>
+          <li><a href="#home" className="logo-header"><img src="/logo192.png" alt="logo Lorena Cohene Báez" /></a></li>
           <button type='button' className="theme-btn btn">
             <i id='color-icon-header' className="bi bi-brightness-high"></i>
           </button>
