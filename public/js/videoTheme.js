@@ -1,6 +1,6 @@
-window.onload = function () {
+window.addEventListener("load", function () {
     //Modo claro/oscuro
-    const themeBtn = document.querySelector('.theme-btn');
+    const themeBtn = document.getElementById('theme-btn');
     themeBtn.addEventListener('click', () => {
         let iconColor = document.getElementById("color-icon-header")
 
@@ -42,3 +42,4 @@ window.onload = function () {
         element.style.display = "none"
     })
 }
+)
