@@ -9,7 +9,7 @@
     @include flex-direction(
       $flex-direction: row,
       $align-items: center,
-      $justify-content: space-around
+      $justify-content: space-between,
     );
     .social-link {
       margin-right: 1rem;

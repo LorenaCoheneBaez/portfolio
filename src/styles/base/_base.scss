@@ -27,7 +27,6 @@ body {
   .accent {
     font-family: var(--font-title);
     font-weight: 600;
-    text-align: center;
   }
   #main {
     padding: 8%;
@@ -107,7 +106,6 @@ body {
     min-width: 14.125rem;
   }
   .about {
-    text-align: center;
     margin: 1rem auto;
   }
   @media screen and (min-width: 767px) {
