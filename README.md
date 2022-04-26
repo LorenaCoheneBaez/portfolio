@@ -4,11 +4,12 @@
 
 1. **[Objetivo](#objetivo)**
 1. **[Tecnologías usadas](#tecnologías-usadas)**
+1. **[Demo](#demo)**
 1. **[Instalación del proyecto](#instalación-del-proyecto)**
 
 ## Objetivo:
 
-Realizar un portfolio donde mostrar mis proyectos.
+Realizar un portfolio donde mostrar mis proyectos, realizado con React, utilizando Sass para dar estilos.
 
 #### 
 ***
@@ -26,7 +27,13 @@ Realizar un portfolio donde mostrar mis proyectos.
 <!–– CSS ––>
 <a href="https://www.w3schools.com/css/" target="_blank" data-bs-toggle="tooltip" title="CSS3"> <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="css3"/> </a>
  </p>
+ 
+## Demo:
 
+<a href="https://lorenacohenebaez-portfolio.netlify.app/" target="_blank">Para ver el proyecto hacer click aquí</a>
+
+#### 
+                                                                         
  ***    
  ## Instalación del proyecto:
 
