@@ -9,7 +9,7 @@
     @include flex-direction(
       $flex-direction: row,
       $align-items: center,
-      $justify-content: space-between,
+      $justify-content: space-between
     );
     .social-link {
       margin-right: 1rem;
@@ -38,29 +38,26 @@
       grid-template-columns: repeat(2, 1fr);
       align-items: center;
     }
-    .wrapper-img-perfil .img-perfil {
-      background-color: transparent;
-      border-radius: 5px;
-      width: 40vw;
-    }
-    .bg-shape {
-      position: absolute;
-      right: 0;
-      top: 0;
-      z-index: -1;
-      width: 0;
-      height: 0;
-      border-bottom: 32rem solid var(--color-accent);
-      border-left: 22rem solid transparent;
-    }
+
     .contact-links .social-link {
       font-size: 2rem;
     }
-     @media screen and (min-width: 1020px){
-       .bg-shape {
-         border-bottom: 36rem solid var(--color-accent);
-      border-left: 25rem solid transparent;
-       }
-     }
+    @media screen and (min-width: 1020px) {
+      .wrapper-img-perfil .img-perfil {
+        background-color: transparent;
+        width: 40vw;
+      }
+      .bg-shape {
+        position: absolute;
+        right: 0;
+        z-index: -1;
+        width: 42vw;
+        height: 21vh;
+        -moz-border-radius: 0 50% / 0 100%;
+        -webkit-border-radius: 0 50% / 0 100%;
+        border-radius: 0 50% / 0 100%;
+        border-bottom: 25rem solid var(--color-secondary);
+      }
+    }
   }
 }
