@@ -5,6 +5,9 @@
     color: var(--color-accent);
     margin: 1rem auto;
   }
+  .subtitle{
+    color: var(--color-secondary);
+  }
   .contact-links {
     @include flex-direction(
       $flex-direction: row,
@@ -42,22 +45,6 @@
     .contact-links .social-link {
       font-size: 2rem;
     }
-    @media screen and (min-width: 1020px) {
-      .wrapper-img-perfil .img-perfil {
-        background-color: transparent;
-        width: 40vw;
-      }
-      .bg-shape {
-        position: absolute;
-        right: 0;
-        z-index: -1;
-        width: 42vw;
-        height: 21vh;
-        -moz-border-radius: 0 50% / 0 100%;
-        -webkit-border-radius: 0 50% / 0 100%;
-        border-radius: 0 50% / 0 100%;
-        border-bottom: 25rem solid var(--color-secondary);
-      }
-    }
+    
   }
 }
