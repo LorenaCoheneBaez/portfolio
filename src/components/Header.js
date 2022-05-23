@@ -3,8 +3,8 @@ import React from 'react'
 
 
 export default function Header() {
-  function handleSubmit(e) {
-    e.preventDefault();
+  function handleChange() {
+    
     //Modo claro/oscuro
     const themeBtn = document.getElementById('theme-btn');
     if (themeBtn) {
@@ -23,7 +23,7 @@ export default function Header() {
       <nav>
         <ul>
           <li><a href="#home" className="logo-header"><img src="/logo192.png" alt="logo Lorena Cohene Báez" /></a></li>
-          <button onClick={handleSubmit} type='button' className="theme-btn btn" id='theme-btn'>
+          <button onClick={handleChange} type='button' className="theme-btn btn" id='theme-btn'>
             <i id='color-icon-header' className="bi bi-brightness-high"></i>
           </button>
           <li><a href="#home" className='btn'><i className="bi bi-house-door-fill"></i>Inicio</a></li>
