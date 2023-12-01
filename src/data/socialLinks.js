@@ -8,7 +8,7 @@ const redes = [
     {
         "id": 2,
         "name": "Gmail",
-        "link": "mailto:loreley.cb15@gmail.com",
+        "link": "mailto:lorenacohenebaez@gmail.com",
         "icon": "bi bi-envelope-open-fill",
     },
     {
