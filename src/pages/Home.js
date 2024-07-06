@@ -8,11 +8,11 @@ export default function Home() {
     <div id='home'>
         <h1 className='accent'>Lorena Cohene Báez</h1>
       
-        <h2 className='subtitle'>Desarrolladora web full stack</h2>
+        <h2>Desarrolladora frontend</h2>
       <div className='grid-home'>
       <div className='text-home'>
    <div>
-          <p className="about">¡Hola! Me encanta crear páginas webs funcionales, buscar nuevos desafíos y conocer cómo funciona la tecnología.
+          <p className="about">¡Hola! Me encanta crear páginas webs y aplicaciones mobile funcionales, buscar nuevos desafíos y conocer cómo funciona la tecnología.
           </p>
         </div>
         
