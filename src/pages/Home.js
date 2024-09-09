@@ -8,7 +8,7 @@ export default function Home() {
     <div id='home'>
         <h1 className='accent'>Lorena Cohene Báez</h1>
       
-        <h2>Desarrolladora frontend</h2>
+      <h2>Software Developer</h2>
       <div className='grid-home'>
       <div className='text-home'>
    <div>
