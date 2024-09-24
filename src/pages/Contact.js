@@ -7,7 +7,7 @@ export default function Contact() {
   return (
     <div id='contact'>
       <h3>Contacto</h3>
-      <p className='about'>Contáctame y construyamos webs maravillosas.</p>
+      {/* <p className='about'>Contáctame y construyamos webs maravillosas.</p> */}
       <div className='contact-wrapper'>
         {redes.map((item, index) => {
           return (
